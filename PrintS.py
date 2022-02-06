@@ -6,6 +6,7 @@ st='Print only the word that start with s in this sentence'
    #print(txt)
    #continue
 
+#Logic to print words starts with "S"
 for txt in st.split():
     if txt[0] == 's':
         print(txt)
